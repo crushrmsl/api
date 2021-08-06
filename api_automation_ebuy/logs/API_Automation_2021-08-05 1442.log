@@ -1,0 +1,227 @@
+2021-08-05 14:42:04,064 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:04,086 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:04,087 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:04,106 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:04,114 - [test_login.py -->line:30] - INFO : ============================== 开始执行登录接口测试 ==============================
+2021-08-05 14:42:04,114 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Login,方法:post,参数:{'loginName': 'admin', 'password': '123456', 'action': 'login'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:06,149 - [test_login.py -->line:66] - INFO : 预期结果:{'data': '登陆成功！', 'message': '操作成功！', 'status': 1}, 实际结果:{'data': '登陆成功！', 'message': '操作成功！', 'status': 1}, 断言结果:PASS
+2021-08-05 14:42:06,149 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:06,168 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 2, column--> 9, value--> {'data': '登陆成功！', 'message': '操作成功！', 'status': 1}
+2021-08-05 14:42:06,195 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:06,195 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:06,217 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 2, column--> 10, value--> PASS
+2021-08-05 14:42:06,236 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:06,236 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Login,方法:post,参数:{'loginName': 'cgn', 'password': '123456', 'action': 'login'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:08,255 - [test_login.py -->line:66] - INFO : 预期结果:{'data': '登陆成功！', 'message': '操作成功！', 'status': 1}, 实际结果:{'data': '登陆成功！', 'message': '操作成功！', 'status': 1}, 断言结果:PASS
+2021-08-05 14:42:08,255 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:08,272 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 3, column--> 9, value--> {'data': '登陆成功！', 'message': '操作成功！', 'status': 1}
+2021-08-05 14:42:08,291 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:08,291 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:08,309 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 3, column--> 10, value--> PASS
+2021-08-05 14:42:08,339 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:08,340 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Login,方法:post,参数:{'password': '123456', 'action': 'login'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:10,346 - [test_login.py -->line:62] - ERROR : {'data': '请输入用户名！', 'message': '操作失败！', 'status': 0} != {'data': '登陆成功！', 'message': '操作成功！', 'status': 1}
+- {'data': '请输入用户名！', 'message': '操作失败！', 'status': 0}
+?           ^^^^^^                  ^^              ^
+
++ {'data': '登陆成功！', 'message': '操作成功！', 'status': 1}
+?           ^^^^                  ^^              ^
+Traceback (most recent call last):
+  File "D:\Python\pythonproject\api_automation_ebuy\test_cases\test_login.py", line 59, in test_login
+    self.assertEqual(eval(case.expected_data), res)
+  File "C:\Users\99162\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\99162\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\99162\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: {'data': '请输入用户名！', 'message': '操作失败！', 'status': 0} != {'data': '登陆成功！', 'message': '操作成功！', 'status': 1}
+- {'data': '请输入用户名！', 'message': '操作失败！', 'status': 0}
+?           ^^^^^^                  ^^              ^
+
++ {'data': '登陆成功！', 'message': '操作成功！', 'status': 1}
+?           ^^^^                  ^^              ^
+
+2021-08-05 14:42:10,347 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:10,367 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 4, column--> 9, value--> {'data': '登陆成功！', 'message': '操作成功！', 'status': 1}
+2021-08-05 14:42:10,392 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:10,392 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:10,412 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 4, column--> 10, value--> FAIL
+2021-08-05 14:42:10,431 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:10,432 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Login,方法:post,参数:{'loginName': '', 'password': '123456', 'action': 'login'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:12,442 - [test_login.py -->line:62] - ERROR : {'data': '请输入用户名！', 'message': '操作失败！', 'status': 0} != {'data': '登陆成功！', 'message': '操作成功！', 'status': 1}
+- {'data': '请输入用户名！', 'message': '操作失败！', 'status': 0}
+?           ^^^^^^                  ^^              ^
+
++ {'data': '登陆成功！', 'message': '操作成功！', 'status': 1}
+?           ^^^^                  ^^              ^
+Traceback (most recent call last):
+  File "D:\Python\pythonproject\api_automation_ebuy\test_cases\test_login.py", line 59, in test_login
+    self.assertEqual(eval(case.expected_data), res)
+  File "C:\Users\99162\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\99162\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\99162\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: {'data': '请输入用户名！', 'message': '操作失败！', 'status': 0} != {'data': '登陆成功！', 'message': '操作成功！', 'status': 1}
+- {'data': '请输入用户名！', 'message': '操作失败！', 'status': 0}
+?           ^^^^^^                  ^^              ^
+
++ {'data': '登陆成功！', 'message': '操作成功！', 'status': 1}
+?           ^^^^                  ^^              ^
+
+2021-08-05 14:42:12,443 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:12,461 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 5, column--> 9, value--> {'data': '登陆成功！', 'message': '操作成功！', 'status': 1}
+2021-08-05 14:42:12,480 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:12,480 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:12,499 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 5, column--> 10, value--> FAIL
+2021-08-05 14:42:12,527 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:12,527 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Login,方法:post,参数:{'loginName': 'dfsagas', 'password': '123456', 'action': 'login'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:14,545 - [test_login.py -->line:66] - INFO : 预期结果:{'message': '用户不存在！', 'status': -1}, 实际结果:{'message': '用户不存在！', 'status': -1}, 断言结果:PASS
+2021-08-05 14:42:14,545 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:14,564 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 6, column--> 9, value--> {'message': '用户不存在！', 'status': -1}
+2021-08-05 14:42:14,582 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:14,583 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:14,601 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 6, column--> 10, value--> PASS
+2021-08-05 14:42:14,621 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:14,621 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Login,方法:post,参数:{'loginName': 'cgn', 'password': '', 'action': 'login'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:16,642 - [test_login.py -->line:66] - INFO : 预期结果:{'message': '密码错误！', 'status': -1}, 实际结果:{'message': '密码错误！', 'status': -1}, 断言结果:PASS
+2021-08-05 14:42:16,642 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:16,660 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 7, column--> 9, value--> {'message': '密码错误！', 'status': -1}
+2021-08-05 14:42:16,679 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:16,679 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:16,697 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 7, column--> 10, value--> PASS
+2021-08-05 14:42:16,715 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:16,715 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Login,方法:post,参数:{'loginName': 'cgn', 'password': '111111', 'action': 'login'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:18,726 - [test_login.py -->line:66] - INFO : 预期结果:{'message': '密码错误！', 'status': -1}, 实际结果:{'message': '密码错误！', 'status': -1}, 断言结果:PASS
+2021-08-05 14:42:18,726 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:18,744 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 8, column--> 9, value--> {'message': '密码错误！', 'status': -1}
+2021-08-05 14:42:18,763 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:18,763 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:18,781 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 8, column--> 10, value--> PASS
+2021-08-05 14:42:18,801 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> login
+2021-08-05 14:42:18,801 - [test_login.py -->line:35] - INFO : ============================== 登录接口测试执行完毕 ==============================
+2021-08-05 14:42:18,801 - [test_register.py -->line:31] - INFO : ============================== 开始执行注册接口测试 ==============================
+2021-08-05 14:42:18,803 - [execute_mysql.py -->line:23] - INFO : 数据库连接成功, host --> localhost, database --> easybuy
+2021-08-05 14:42:18,803 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Register,方法:post,参数:{'loginName': 'tester00', 'password': '123456', 'userName': '李易峰', 'action': 'saveUserToDatabase', 'sex': 1, 'email': '362456534@qq.com', 'mobile': '15088661122', 'identityCode': '420116198811255875'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:23,834 - [execute_mysql.py -->line:28] - INFO : 正在执行查询数据库, sql --> select userName from easybuy_user where loginName="tester00";
+2021-08-05 14:42:23,835 - [execute_mysql.py -->line:34] - INFO : 数据库查询成功, 查询结果 --> {'userName': '李易峰'}
+2021-08-05 14:42:23,835 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Login,方法:post,参数:{'loginName': 'tester00', 'password': '123456', 'action': 'login'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:24,847 - [test_register.py -->line:90] - INFO : 预期结果:{'message': '注册成功！', 'status': -1}, 实际结果:{'message': '注册成功！', 'status': -1}, 断言结果:PASS
+2021-08-05 14:42:24,847 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:24,866 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 2, column--> 9, value--> {'message': '注册成功！', 'status': -1}
+2021-08-05 14:42:24,885 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:24,885 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:24,903 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 2, column--> 10, value--> PASS
+2021-08-05 14:42:24,922 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:24,922 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Register,方法:post,参数:{'loginName': 'tester01', 'password': '123456', 'userName': '王武', 'action': 'saveUserToDatabase', 'sex': 0, 'email': '362456534@qq.com', 'mobile': '15088661122', 'identityCode': '420116198811255875'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:29,963 - [execute_mysql.py -->line:28] - INFO : 正在执行查询数据库, sql --> select userName from easybuy_user where loginName="tester01";
+2021-08-05 14:42:29,963 - [execute_mysql.py -->line:34] - INFO : 数据库查询成功, 查询结果 --> {'userName': '王武'}
+2021-08-05 14:42:29,964 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Login,方法:post,参数:{'loginName': 'tester01', 'password': '123456', 'action': 'login'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:30,977 - [test_register.py -->line:90] - INFO : 预期结果:{'message': '注册成功！', 'status': -1}, 实际结果:{'message': '注册成功！', 'status': -1}, 断言结果:PASS
+2021-08-05 14:42:30,977 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:30,996 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 3, column--> 9, value--> {'message': '注册成功！', 'status': -1}
+2021-08-05 14:42:31,014 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:31,014 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:31,033 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 3, column--> 10, value--> PASS
+2021-08-05 14:42:31,052 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:31,052 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Register,方法:post,参数:{'loginName': 'admin', 'password': '123456', 'userName': '王武', 'action': 'saveUserToDatabase', 'sex': 0, 'email': '362456534@qq.com', 'mobile': '15088661122', 'identityCode': '420116198811255875'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:36,083 - [test_register.py -->line:90] - INFO : 预期结果:{'message': '用户已经存在！', 'status': -1}, 实际结果:{'message': '用户已经存在！', 'status': -1}, 断言结果:PASS
+2021-08-05 14:42:36,083 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:36,101 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 4, column--> 9, value--> {'message': '用户已经存在！', 'status': -1}
+2021-08-05 14:42:36,120 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:36,120 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:36,138 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 4, column--> 10, value--> PASS
+2021-08-05 14:42:36,157 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:36,157 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Register,方法:post,参数:{'loginName': '', 'password': '123456', 'userName': '王武', 'action': 'saveUserToDatabase', 'sex': 0, 'email': '362456534@qq.com', 'mobile': '15088661122', 'identityCode': '420116198811255875'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:41,183 - [test_register.py -->line:90] - INFO : 预期结果:{'message': '用户已经存在！', 'status': -1}, 实际结果:{'message': '用户已经存在！', 'status': -1}, 断言结果:PASS
+2021-08-05 14:42:41,183 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:41,202 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 5, column--> 9, value--> {'message': '用户已经存在！', 'status': -1}
+2021-08-05 14:42:41,222 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:41,222 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:41,240 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 5, column--> 10, value--> PASS
+2021-08-05 14:42:41,259 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:41,259 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Register,方法:post,参数:{'loginName': 'tester30', 'password': '', 'userName': '王武', 'action': 'saveUserToDatabase', 'sex': 0, 'email': '362456534@qq.com', 'mobile': '15088661122', 'identityCode': '420116198811255875'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:46,292 - [test_register.py -->line:86] - ERROR : {'message': '密码不能为空！', 'status': -1} != {'message': '注册成功！', 'status': -1}
+- {'message': '密码不能为空！', 'status': -1}
+?              ^^^^^^
+
++ {'message': '注册成功！', 'status': -1}
+?              ^^^^
+Traceback (most recent call last):
+  File "D:\Python\pythonproject\api_automation_ebuy\test_cases\test_register.py", line 81, in test_register
+    self.assertEqual(eval(case.expected_data), res)
+  File "C:\Users\99162\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\99162\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\99162\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: {'message': '密码不能为空！', 'status': -1} != {'message': '注册成功！', 'status': -1}
+- {'message': '密码不能为空！', 'status': -1}
+?              ^^^^^^
+
++ {'message': '注册成功！', 'status': -1}
+?              ^^^^
+
+2021-08-05 14:42:46,292 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:46,311 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 6, column--> 9, value--> {'message': '注册成功！', 'status': -1}
+2021-08-05 14:42:46,344 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:46,344 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:46,362 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 6, column--> 10, value--> FAIL
+2021-08-05 14:42:46,381 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:46,381 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Register,方法:post,参数:{'loginName': 'tester02', 'password': '123456', 'userName': '王武', 'action': 'saveUserToDatabase', 'sex': 2, 'email': '362456534@qq.com', 'mobile': '15088661122', 'identityCode': '420116198811255875'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:51,419 - [test_register.py -->line:86] - ERROR : {'message': 'sex参数错误！', 'status': -1} != {'message': '注册成功！', 'status': -1}
+- {'message': 'sex参数错误！', 'status': -1}
+?              ^^^^^^^
+
++ {'message': '注册成功！', 'status': -1}
+?              ^^^^
+Traceback (most recent call last):
+  File "D:\Python\pythonproject\api_automation_ebuy\test_cases\test_register.py", line 81, in test_register
+    self.assertEqual(eval(case.expected_data), res)
+  File "C:\Users\99162\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\99162\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1151, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\99162\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: {'message': 'sex参数错误！', 'status': -1} != {'message': '注册成功！', 'status': -1}
+- {'message': 'sex参数错误！', 'status': -1}
+?              ^^^^^^^
+
++ {'message': '注册成功！', 'status': -1}
+?              ^^^^
+
+2021-08-05 14:42:51,420 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:51,439 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 7, column--> 9, value--> {'message': '注册成功！', 'status': -1}
+2021-08-05 14:42:51,458 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:51,458 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:51,476 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 7, column--> 10, value--> FAIL
+2021-08-05 14:42:51,494 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:51,495 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Register,方法:post,参数:{'loginName': 'tester05', 'password': '123456', 'userName': '王武', 'action': 'saveUserToDatabase', 'sex': 0, 'email': '', 'mobile': '15088661122', 'identityCode': '420116198811255875'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:42:56,530 - [test_register.py -->line:90] - INFO : 预期结果:{'message': '注册成功！', 'status': -1}, 实际结果:{'message': '注册成功！', 'status': -1}, 断言结果:PASS
+2021-08-05 14:42:56,530 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:56,549 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 8, column--> 9, value--> {'message': '注册成功！', 'status': -1}
+2021-08-05 14:42:56,568 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:56,568 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:56,586 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 8, column--> 10, value--> PASS
+2021-08-05 14:42:56,604 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:42:56,604 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Register,方法:post,参数:{'loginName': 'tester001', 'password': '123456', 'userName': '王武', 'action': 'saveUserToDatabase', 'sex': 0, 'email': '362456534@qq.com', 'mobile': '', 'identityCode': '420116198811255875'},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:43:01,650 - [test_register.py -->line:90] - INFO : 预期结果:{'message': '注册成功！', 'status': -1}, 实际结果:{'message': '注册成功！', 'status': -1}, 断言结果:PASS
+2021-08-05 14:43:01,650 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:43:01,668 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 9, column--> 9, value--> {'message': '注册成功！', 'status': -1}
+2021-08-05 14:43:01,686 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:43:01,687 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:43:01,704 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 9, column--> 10, value--> PASS
+2021-08-05 14:43:01,723 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:43:01,724 - [http_request.py -->line:37] - INFO : 正在发送请求,地址:http://localhost:8080/ebuy/Register,方法:post,参数:{'loginName': 'tester04', 'password': '123456', 'userName': '王武', 'action': 'saveUserToDatabase', 'sex': 0, 'email': '362456534@qq.com', 'mobile': '15088661122', 'identityCode': ''},类型:form-data,请求头:{'User-Agent': 'Apache-HttpClient/4.5.12 (Java/1.8.0_261)'}
+2021-08-05 14:43:06,768 - [test_register.py -->line:90] - INFO : 预期结果:{'message': '注册成功！', 'status': -1}, 实际结果:{'message': '注册成功！', 'status': -1}, 断言结果:PASS
+2021-08-05 14:43:06,768 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:43:06,787 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 10, column--> 9, value--> {'message': '注册成功！', 'status': -1}
+2021-08-05 14:43:06,806 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:43:06,806 - [read_excel.py -->line:38] - INFO : 正在读取excel数据, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:43:06,825 - [read_excel.py -->line:192] - INFO : 正在写入数据, row--> 10, column--> 10, value--> PASS
+2021-08-05 14:43:06,845 - [read_excel.py -->line:49] - INFO : 正在关闭工作簿, file_path--> D:\Python\pythonproject\api_automation_ebuy\data\api_automation_ebuy.xlsx, sheet_name--> register
+2021-08-05 14:43:06,845 - [test_register.py -->line:37] - INFO : ============================== 注册接口测试执行完毕 ==============================
